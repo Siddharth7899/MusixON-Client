@@ -131,11 +131,11 @@ function Login() {
         </div>
         <div className="btm-content">
           <p>password ?</p>
-          <Link to={`/forgotpassword`}>forgotPassword</Link>
+          <Link to={`forgotpassword`}>forgotPassword</Link>
         </div>
         <div className="btm-content">
           <p>Create Account here </p>
-          <Link to={`/signup`}>Signup</Link>
+          <Link to={`signup`}>Signup</Link>
         </div>
       </div>
     </form>

@@ -86,11 +86,11 @@ function App() {
         ) : (
           <Routes>
             <Route path="/"  element = {<CreateAccount />}/>
-            <Route path="/signup"  element={<Signup />}/>
-            <Route path="user/:id/verify/:token"  element={<EmailVerify />}/>
-            <Route path="/login"  element={<Login />}/>
-            <Route path="/forgotpassword"  element={<ForgotPassword />}/>
-            <Route path="user/:id/reset/:token"  element={<ResetPassword />}/>
+            <Route path="signup"  element={<Signup />}/>
+            <Route path="/user/:id/verify/:token"  element={<EmailVerify />}/>
+            <Route path="login"  element={<Login />}/>
+            <Route path="forgotpassword"  element={<ForgotPassword />}/>
+            <Route path="/user/:id/reset/:token"  element={<ResetPassword />}/>
           </Routes>
         )}
       </div>
