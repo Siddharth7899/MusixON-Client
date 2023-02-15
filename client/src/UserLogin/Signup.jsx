@@ -61,8 +61,9 @@ function Signup() {
     }
     setPasswordError("");
     try {
+      console.log("sending data");
       const {data} = await api.signup(registerData);
-      //console.log(data);
+      console.log(data);
       setErrormessage(data?.message? data.message : "");
     } catch (error) {
       setErrormessage(error?.response?.data?.message);
