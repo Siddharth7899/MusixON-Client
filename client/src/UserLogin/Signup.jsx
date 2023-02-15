@@ -168,7 +168,7 @@ function Signup() {
           />
         </div>
         <div className="gotologin">
-        <p style={{"color":"#fff","marginTop":"7px"}}>Already have an account? <Link to={`login`}>Login</Link></p>
+        <p style={{"color":"#fff","marginTop":"7px"}}>Already have an account? <Link to={`/login`}>Login</Link></p>
         </div>
       </div>
     </form>

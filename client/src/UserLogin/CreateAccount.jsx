@@ -6,12 +6,12 @@ function CreateAccount() {
   return (
     <div className="create-container">
       <h3 id="heading">New To the MusixON ?</h3>
-      <Link to={`signup`} className="create-btn">
+      <Link to={`/signup`} className="create-btn">
         Create Account
       </Link>
       <p>
         Already have an account ?
-        <Link to={`login`} className="login-btn">
+        <Link to={`/login`} className="login-btn">
           Login
         </Link>
       </p>
